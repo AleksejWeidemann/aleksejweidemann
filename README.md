@@ -1,6 +1,6 @@
 # Aleksej Weidemann
 
-**Data Scientist · ML Engineer · Edge AI**
+**Data Science · ML Engineering · Edge AI**
 
 ![Location](https://img.shields.io/badge/📍_Düsseldorf-Germany-0d1117?style=flat-square&labelColor=161b22&color=30363d)
 ![Degree](https://img.shields.io/badge/M.Sc._Big_Data_%26_Analytics-FOM_Cologne-0d1117?style=flat-square&labelColor=161b22&color=1f6feb)
