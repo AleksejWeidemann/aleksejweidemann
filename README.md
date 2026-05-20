@@ -44,8 +44,7 @@ Full evaluation across Accuracy, Precision, Recall, and F1.
 
 Analysis and modeling of BTC and ETH price time series (2014–2024).
 Full data pipeline, feature engineering, statistical correlation analysis, and visualization.
-Model comparison: LSTM vs. Random Forest — with honest error analysis (RMSE, MAE).
-*Academic analysis only — not financial advice.*
+Model comparison: LSTM vs. Random Forest.
 
 ---
 
