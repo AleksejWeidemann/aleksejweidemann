@@ -30,14 +30,6 @@ Evaluated in 3 real urban scenarios on commodity hardware. **No internet connect
 
 ---
 
-### [Fake News Detection — Transformer vs. Classical ML](https://github.com/aleksejweidemann/fake-news-detection-transformers)
-> `PyTorch` · `Hugging Face Transformers` · `DistilRoBERTa` · `Scikit-learn` · `TF-IDF` · `NLP`
-
-Fine-tuned a pretrained DistilRoBERTa model for misinformation classification on unstructured text data.
-Systematic model comparison: Transformer vs. custom SVM/TF-IDF classifier.
-Full evaluation across Accuracy, Precision, Recall, and F1.
-
----
 
 ### [Crypto Price Prediction — BTC & ETH](https://github.com/aleksejweidemann/crypto-price-prediction-btc-eth)
 > `Python` · `TensorFlow/Keras` · `Scikit-learn` · `Pandas` · `Statsmodels` · `Time Series`
