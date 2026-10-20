@@ -1,60 +1,62 @@
 # Aleksej Weidemann
 
-**Data Science · ML Engineering · Edge AI**
+**GenAI on Azure · RAG · EU AI Act · IT Project Management**
 
-![Location](https://img.shields.io/badge/📍_Düsseldorf-Germany-0d1117?style=flat-square&labelColor=161b22&color=30363d)
-![Degree](https://img.shields.io/badge/M.Sc._Big_Data_%26_Analytics-FOM_Cologne-0d1117?style=flat-square&labelColor=161b22&color=1f6feb)
-![Languages](https://img.shields.io/badge/🌐_DE_·_EN_·_RU-trilingual-0d1117?style=flat-square&labelColor=161b22&color=238636)
+Düsseldorf, Germany · M.Sc. Big Data & Business Analytics (FOM, 1.9) · German, Russian, English
 
 ---
 
-## 👤 About me
+## About me
 
-Hands-on experience in **Computer Vision, NLP, and Edge AI deployment**.
-I build end-to-end ML systems: from data pipelines and model training to latency-optimized inference on mobile hardware.
+I build GenAI applications and take them live: document retrieval, prompts with clear rules, automated tests, container deployment on Azure and cost control.
 
-Degree in **M.Sc. in Big Data & Business Analytics** (FOM Cologne, GPA 1.9), where I developed a real-time obstacle detection app for visually impaired people, which is running fully on-device with YOLOv8 + ONNX Runtime, no cloud required.
+I come from IT project management. At DSV Global Transport & Logistics I work in IT portfolio and project management. Before that I was PMO for a global SAP program and managed an archiving project and a data migration project. In total I have seven years of corporate IT experience at Ericsson, DXC Technology, DB Schenker and DSV.
 
-My background in international enterprise environments (DSV Global Transport & Logistics, Ericsson) brings a rare combination of ML engineering depth and business context.
+This background shapes how I run AI projects. I start with the business problem, agree on a clear scope and make risks visible early. Then I build a working solution that people can test.
 
----
+Current focus: retrieval-augmented generation (RAG), evaluation of LLM output and the EU AI Act.
 
-## 🚀 Featured Projects
+## How I work
 
-### ⭐ [Real-Time Obstacle Detection — Edge AI for the Visually Impaired](https://github.com/aleksejweidemann/obstacle-detection-edge-ai)
-> `YOLOv8n` · `ONNX Runtime` · `OpenCV` · `Android / Kotlin` · `Edge AI` · `TTS`
+I build with a coding agent (Claude Code). I decide scope and architecture, set the rules the agent has to follow and review the changes. I test the results live and document decisions and limits in the README.
 
-Android app for cloud-free real-time obstacle detection — designed to assist visually impaired people navigating urban environments.
-Full processing pipeline from camera input → ONNX inference → prioritization logic → TTS audio output.
-Evaluated in 3 real urban scenarios on commodity hardware. **No internet connection required.**
+## Featured projects
 
----
+### AI-Act Conformity Copilot
+`Python` · `Azure OpenAI` · `Azure AI Search` · `RAG` · `Streamlit` · `Docker` · `Azure Container Apps`
 
+Answers questions on the EU AI Act only from the legal text and cites the article for every statement. Hybrid search (full text and vector), automatic citation check and a fixed refusal instead of guessing. 58 automated tests. Runs on Azure in EU regions.
+Next steps: risk classification and Annex IV gap analysis.
 
-### [Crypto Price Prediction — BTC & ETH](https://github.com/aleksejweidemann/crypto-price-prediction-btc-eth)
-> `Python` · `TensorFlow/Keras` · `Scikit-learn` · `Pandas` · `Statsmodels` · `Time Series`
+[Repository](https://github.com/AleksejWeidemann/ai-act-copilot) · [Live demo](https://ca-aiact-copilot.jollyglacier-8eb368d3.swedencentral.azurecontainerapps.io/) (access code on request)
 
-Analysis and modeling of BTC and ETH price time series (2014–2024).
-Full data pipeline, feature engineering, statistical correlation analysis, and visualization.
-Model comparison: LSTM vs. Random Forest.
+### Posteingang-KI: document triage for insurers
+`Python` · `Anthropic API` · `Pydantic` · `Streamlit`
 
----
+Classifies incoming insurance documents with an LLM and structured output. Rule-based escalation hands unclear cases to a person. On 30 synthetic test documents, 20 were processed automatically (67 %) at about 0.05 USD per run.
 
-## 🛠 Tech Stack
+[Repository](https://github.com/AleksejWeidemann/posteingang-ki) · [Live demo](https://posteingang-ki.streamlit.app)
+
+### ObstacleAssist: real-time obstacle detection (master's thesis)
+`YOLOv8n` · `ONNX Runtime` · `OpenCV` · `Android / Kotlin`
+
+Android app that detects obstacles for visually impaired people and announces them by speech. Runs fully on the device without internet. mAP@0.50 of 0.611 and a median latency of 148–163 ms on commodity hardware, evaluated in three real urban scenarios.
+
+[Repository](https://github.com/AleksejWeidemann/ObstacleAssist)
+
+## Tech stack
 
 | Area | Tools |
 |---|---|
-| **ML & AI** | PyTorch · TensorFlow/Keras · Scikit-learn · Hugging Face Transformers · YOLOv8 |
-| **Computer Vision & Edge AI** | OpenCV · ONNX Runtime · Android / Edge Deployment |
-| **Data & Analysis** | Python (Pandas, NumPy, Statsmodels) · SQL · Matplotlib · Seaborn · Power BI |
-| **Cloud & Platforms** | Microsoft Azure · Databricks · Git |
-| **Certifications** | Azure Fundamentals AZ-900 · Databricks Fundamentals |
+| GenAI & RAG | Azure OpenAI · Anthropic API · Azure AI Search · hybrid search · structured output |
+| Engineering | Python · Pydantic · Streamlit · pytest · Docker · Git · Claude Code |
+| Cloud | Azure Container Apps · Azure Container Registry |
+| ML & Computer Vision | YOLOv8 · ONNX Runtime · OpenCV · scikit-learn · TensorFlow/Keras |
+| Data | Pandas · NumPy · SQL · Power BI |
+| Domain | EU AI Act · IT project and portfolio management |
+| Certifications | Microsoft Azure Fundamentals (AZ-900) · Databricks Fundamentals |
 
----
+## Get in touch
 
-## 📬 Get in touch
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Aleksej_Weidemann-0077B5?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/aleksej-weidemann-879929194/)
-[![Email](https://img.shields.io/badge/Email-aleksejweidemann%40outlook.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:aleksejweidemann@outlook.com)
-
-🇩🇪 Deutsch (Muttersprache) &nbsp;·&nbsp; 🇬🇧 English (Professional) &nbsp;·&nbsp; 🇷🇺 Русский (Muttersprache)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Aleksej%20Weidemann-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aleksej-weidemann)
+[![Email](https://img.shields.io/badge/Email-aleksejweidemann%40outlook.com-0078D4?logo=microsoftoutlook&logoColor=white)](mailto:aleksejweidemann@outlook.com)
