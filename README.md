@@ -40,7 +40,7 @@ Classifies incoming insurance documents with an LLM and structured output. Rule-
 ### ObstacleAssist: real-time obstacle detection (master's thesis)
 `YOLOv8n` · `ONNX Runtime` · `OpenCV` · `Android / Kotlin`
 
-Android app that detects obstacles for visually impaired people and announces them by speech. Runs fully on the device without internet. mAP@0.50 of 0.611 and a median latency of 148–163 ms on commodity hardware, evaluated in three real urban scenarios.
+Android app that detects obstacles for visually impaired people and announces them by speech. Runs fully on the device without internet. A median latency of 148–163 ms on commodity hardware, evaluated in three real urban scenarios.
 
 [Repository](https://github.com/AleksejWeidemann/ObstacleAssist)
 
